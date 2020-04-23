@@ -55,10 +55,6 @@ h1 {
     font-size: 1em;
     padding: 10px 5px;
     width: 125px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .button:hover {
@@ -72,4 +68,11 @@ h1 {
 
 .color {
     color: #e74c3c;
+}
+
+span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
